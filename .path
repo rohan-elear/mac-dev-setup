@@ -1,0 +1,17 @@
+export PATH="/usr/local/bin:$PATH"
+
+# custom path
+
+# openssl and curl
+# export PATH="$PATH:/usr/local/opt/curl/bin"
+# export PATH="$PATH:/usr/local/opt/openssl@1.1/bin"
+
+export PATH="$PATH:/usr/local/opt/apr-util/bin"
+export PATH="$PATH:/usr/local/opt/apr/bin"
+export PATH="$PATH:/usr/local/opt/unzip/bin"
+export PATH="$PATH:/usr/local/opt/flex/bin"
+export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH"

@@ -23,3 +23,30 @@
   added = yellow
   changed = green
   untracked = cyan
+[core]
+	excludesfile = /Users/rohan-elear/.gitignore
+	editor = nano
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[diff]
+  tool = opendiff
+#  tool = meld
+[difftool]
+  prompt = false
+[difftool "meld"]
+  cmd = meld "$LOCAL" "$REMOTE"
+[merge]
+  tool = opendiff
+#  tool = meld
+[mergetool "meld"]
+	cmd = meld $LOCAL $MERGED $REMOTE --output $MERGED
+[user]
+	name = Rohan S
+	email = rohan-elear@users.noreply.github.com
+[mergetool]
+  keepBackup = false
+[init]
+	defaultBranch = master
