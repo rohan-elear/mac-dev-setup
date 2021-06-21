@@ -15,5 +15,5 @@ for item in $(cat ./brew-install.list); do
 done;
 
 for item in $(cat ./brew-cask-install.list); do
-  brew cask install "$item"
+  brew install --cask "$item"
 done;

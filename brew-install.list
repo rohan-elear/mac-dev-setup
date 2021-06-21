@@ -16,9 +16,9 @@ nmap
 openssl@1.1
 pkg-config
 python@3.8
-python@3.9
 readline
 sqlite
+svn
 telnet
 wget
 xz
